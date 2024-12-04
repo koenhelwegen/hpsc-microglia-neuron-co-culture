@@ -1,0 +1,37 @@
+Sheet,descr,method,pval,normality_rejected,normality_pval,d,n_pat,n_ctrl,covariates
+WithWO_HumanandAxons,mean_Neuronal_Nuclei_Maximum_Neurite_Length_Mean_per_Well,Mann-Whitney U test,0.018537339095104865,True,3.8668574151216984e-07,-0.04411492793686324,24,21,"['Timepoint', 'NeuronType']"
+WithWO_HumanandAxons,mean_Neuronal_Nuclei_Number_of_Extremities_Mean_per_Well,Mann-Whitney U test,0.003722999277092411,True,0.0009436557250198437,-0.3119338411784697,24,21,"['Timepoint', 'NeuronType']"
+WithWO_HumanandAxons,mean_Neuronal_Nuclei_Number_of_Roots_Mean_per_Well,OLS regression,0.0246315360864434,False,0.6251345599418423,-0.28717967439271147,24,21,"['Timepoint', 'NeuronType']"
+WithWO_HumanandAxons,mean_Neuronal_Nuclei_Number_of_Segments_Mean_per_Well,Mann-Whitney U test,0.003216762183289052,True,0.0025406437144363356,-0.3650289651855573,24,21,"['Timepoint', 'NeuronType']"
+WithWO_HumanandAxons,mean_Neuronal_Nuclei_Number_of_Nodes_type_1_Mean_per_Well,Mann-Whitney U test,0.0020510995957767836,True,0.004432960163301905,-0.4121220502899815,24,21,"['Timepoint', 'NeuronType']"
+WithWO_HumanandAxons,mean_Neuronal_Nuclei_Number_of_Nodes_type_2_Mean_per_Well,Mann-Whitney U test,0.003216762183289052,True,0.001545136571198363,-0.36503590747600306,24,21,"['Timepoint', 'NeuronType']"
+WithWO_HumanandAxons,mean_Neuronal_Nuclei_Total_Neurite_Length_Mean_per_Well,Mann-Whitney U test,0.010483382687805793,True,6.928509080127059e-07,-0.1251618850511751,24,21,"['Timepoint', 'NeuronType']"
+WithWO_HumanandAxons,mean_Neurite_Segments_Segment_Length_Mean_per_Well,Mann-Whitney U test,0.005320315775777456,True,4.303326665657829e-05,0.32931120867356894,24,21,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurite_Segments_Segment_Length_Mean_per_Well,OLS regression,0.003374963026620553,False,0.8647122841122494,0.2809053867495703,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurons_Maximum_Neurite_Length_Mean_per_Well,OLS regression,0.926253907121622,False,0.9559344887973694,0.012914995991305397,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurons_Number_of_Extremities_Mean_per_Well,OLS regression,0.34101018536639716,False,0.9410864131795027,-0.15336791294955537,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurons_Number_of_Roots_Mean_per_Well,OLS regression,0.5848911536377936,False,0.7760343288036726,-0.12472225507902848,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurons_Number_of_Segments_Mean_per_Well,OLS regression,0.2833922536907254,False,0.9416160079803886,-0.16708151283337105,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurons_Number_of_Nodes_type_1_Mean_per_Well,OLS regression,0.23364495462689788,False,0.8868386216634621,-0.17911304957768032,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurons_Number_of_Nodes_type_2_Mean_per_Well,OLS regression,0.27853398196946794,False,0.8884156294373833,-0.16391969951948918,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurons_Total_Neurite_Length_Mean_per_Well,OLS regression,0.7698897328930376,False,0.2971376834693409,-0.04467207726141081,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Dens_Neurite_Segments_Number_of_Spots_per_Area_of_Tree_Resized_Mean_per_Well,OLS regression,0.018375946450896602,False,0.2157741853961413,-0.3954610501741441,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurite_Segments_Total_Spot_Area_Mean_per_Well,OLS regression,0.0740275416937159,False,0.2370521485999648,-0.2816608054632811,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Neurite_Segments_Number_of_Spots_Mean_per_Well,OLS regression,0.11708727725514763,False,0.12382583037835651,-0.24924932513839554,24,24,"['Timepoint', 'NeuronType']"
+WithWO_DendriteandSynapse,Syphy_on_Neurites_Number_of_Objects,OLS regression,0.0002022134111985618,False,0.6101747828655952,-0.590721548394721,24,24,"['Timepoint', 'NeuronType']"
+WithWO_Debris,AllDapi,Mann-Whitney U test,6.638655015859734e-09,True,0.000617078124788845,-0.8478223700683792,48,48,"['Timepoint', 'NeuronType']"
+WithWO_Debris,ViableNuclei,OLS regression,0.4599354475958959,False,0.07836967206921261,-0.08904780705578395,48,48,"['Timepoint', 'NeuronType']"
+WithWO_Debris,PerDebris,Mann-Whitney U test,8.620528310178391e-09,True,0.00011973771509051032,-0.6549588922576397,48,48,"['Timepoint', 'NeuronType']"
+WithWO_Activity,mean_Spike_Rate_Hz_,OLS regression,0.0022933645536779086,False,0.9898210797425161,1.2147204924755488,12,11,['NeuronType']
+WithWO_Activity,mean_Burst_Count,OLS regression,0.016961576875350184,False,0.46300930092435494,0.904290668843941,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Burst_Duration_micros_,OLS regression,0.37288096196660814,False,0.6779029799511054,0.2542224581884561,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Burst_Spike_Count,OLS regression,0.3821209550637207,False,0.7194641902292581,0.20184703233575657,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Burst_Spike_Rate_Hz_,OLS regression,0.7785123721405312,False,0.17393519361632323,-0.1171284809836524,12,11,['NeuronType']
+WithWO_Activity,mean_Percentage_Spikes_in_Burst,OLS regression,0.03517317750203308,False,0.3565966667684571,0.4477847990447016,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Interburst_Interval_micros_,OLS regression,0.8530483859435859,False,0.1525242779094987,0.11110876991062818,12,11,['NeuronType']
+WithWO_Activity,mean_Network_Burst_Count,OLS regression,0.015411142751747063,False,0.07673204108353376,0.5380548778857708,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Network_Burst_Duration_micros_,Mann-Whitney U test,0.20193980169397163,True,0.009890854415398003,0.32940749197864727,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Network_Burst_Spike_Count,OLS regression,0.16811683926410512,False,0.5421674911409136,0.6171130974840348,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Network_Burst_Spike_Rate_Hz_,Mann-Whitney U test,0.15353535353535355,True,0.03699414306732897,0.16265071645005838,12,11,['NeuronType']
+WithWO_Activity,mean_Percentage_Spikes_in_Network_Burst,OLS regression,0.1255685532592146,False,0.8313126249177444,0.09286070978611236,12,11,['NeuronType']
+WithWO_Activity,mean_Mean_Network_Interburst_Interval_micros_,OLS regression,0.3419202117110689,False,0.17497945500931705,-0.11178130277329124,12,11,['NeuronType']

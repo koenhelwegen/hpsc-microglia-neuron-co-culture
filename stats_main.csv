@@ -1,0 +1,7 @@
+descr,method,pval,normality_rejected,normality_pval,d,n_pat,n_ctrl,covariates
+Neuronal health (NeuN+),Mann-Whitney U test,0.6087260902668321,True,0.04744442254222189,-0.1297543624994408,24.0,21.0,"['Timepoint', 'NeuronType']"
+Axons (Neurite.Segments...Number.of.Objects),Mann-Whitney U test,0.04406786533631374,True,0.0011481251778648817,-0.24122700365794142,24.0,21.0,"['Timepoint', 'NeuronType']"
+Dendrites (Neurite.Segments...Number.of.Objects),OLS regression,9.866197135228625e-05,False,0.7770511898136911,-0.3615490176307718,24.0,24.0,"['Timepoint', 'NeuronType']"
+Debris (AllDebris),Mann-Whitney U test,1.965066610112846e-10,True,0.00014066966291624106,-0.8773650451981623,48.0,48.0,"['Timepoint', 'NeuronType']"
+AGGREGATE,Fisher,4.118973272014981e-12,,,,,,
+mean_ActiveChannel,OLS regression,0.006838930147604458,False,0.08942722592224327,1.0237948609159078,12.0,11.0,['NeuronType']
