@@ -5,7 +5,7 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 from tabulate import tabulate
 
-DATAFILE = "Data_WithWO_V8.xlsx"
+DATAFILE = "data_hpsc_microglia_neuron_coculture.xlsx"
 
 
 def cohen_d(x, y):
@@ -209,7 +209,7 @@ def microglia_and_activity() -> pd.DataFrame:
     """
 
     # Load and format data (one row per channel per timepoint)
-    df = pd.read_excel("Data_WithWO_V8.xlsx", sheet_name="WithWO_Activity")
+    df = pd.read_excel(DATAFILE, sheet_name="WithWO_Activity")
     df = df.rename(columns={"Active.Channel": "ActiveChannel", "Well.Label": "well"})
     df["Phenotype"] = pd.Series(df["Phenotype"] == "MG", dtype=int)
     df = df.query("time == 12")

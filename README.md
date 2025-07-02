@@ -1,6 +1,6 @@
 This repository contains the data and analysis scripts for the paper _Human pluripotent stem cell-derived microglia shape neuronal morphology and enhance network activity in vitro_.
 
-Data is available upon request.
+The raw data used for the analyses is provided in the file `data_hpsc_microglia_neuron_coculture.xlsx` that is part of this repository.
 
 ## Setup
 
